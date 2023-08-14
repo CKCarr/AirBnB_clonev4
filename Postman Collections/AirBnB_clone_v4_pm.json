@@ -104,7 +104,8 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "http://localhost:5000/100-hbnb/"
 			},
 			"response": []
 		}
