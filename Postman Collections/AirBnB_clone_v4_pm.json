@@ -97,7 +97,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "100-hbnb",
 			"id": "d17694bc-b188-4c8c-8b41-3e17330d2fc5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
