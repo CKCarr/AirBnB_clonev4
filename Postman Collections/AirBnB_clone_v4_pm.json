@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "7324dbe1-2cf3-435d-9d45-e32ee1db7226",
+		"name": "holberton-AirBnB_clone_v4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "0-hbnb",
+			"_postman_id": "0c506353-e089-43a3-bcae-5e40e0b99265",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/0-hbnb/"
+			},
+			"response": []
+		},
+		{
+			"name": "1-hbnb",
+			"_postman_id": "ebf08cd9-2327-4bc6-8c10-88c0029372df",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/1-hbnb/"
+			},
+			"response": []
+		},
+		{
+			"name": "2-hbnb",
+			"_postman_id": "54736c40-085e-4c76-8ab7-89a30504c2bd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/2-hbnb/"
+			},
+			"response": []
+		},
+		{
+			"name": "3-hbnb",
+			"_postman_id": "598c65bb-a08a-42a5-b393-899896e287bc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/3-hbnb/"
+			},
+			"response": []
+		},
+		{
+			"name": "4-hbnb",
+			"_postman_id": "3f46864f-f9ed-4f65-97d8-a4002b8729d1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/4-hbnb/"
+			},
+			"response": []
+		},
+		{
+			"name": "post_api_places_search",
+			"_postman_id": "8f3fc950-c19f-4d63-839e-bfc84124a99e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://127.0.0.1:5001/api/v1/places_search/"
+			},
+			"response": []
+		},
+		{
+			"name": "post_api_status",
+			"_postman_id": "c9a4aff0-b5e8-4e34-a17d-4e441febf632",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://127.0.0.1:5001/api/v1/status/"
+			},
+			"response": []
+		}
+	]
+}
