@@ -109,5 +109,12 @@
 			},
 			"response": []
 		}
+	],
+	"variable": [
+		{
+			"id": "08f5eaf3-1794-4439-9d68-2743ef12c96d",
+			"key": "variable_key",
+			"value": ""
+		}
 	]
 }
