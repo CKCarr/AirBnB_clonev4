@@ -72,6 +72,19 @@
 		},
 		{
 			"name": "post_api_places_search",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "18f4f82d-be2c-44a3-a79d-6dd87e4f1145",
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "8f3fc950-c19f-4d63-839e-bfc84124a99e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -79,6 +92,15 @@
 			"request": {
 				"method": "POST",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"states\": [\"state_id_1\", \"state_id_2\"],\r\n    \"cities\": [\"city_id_1\", \"city_id_2\"],\r\n    \"amenities\": [\"amenity_id_1\", \"amenity_id_2\"]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": "http://127.0.0.1:5001/api/v1/places_search/"
 			},
 			"response": []
@@ -112,7 +134,7 @@
 	],
 	"variable": [
 		{
-			"id": "08f5eaf3-1794-4439-9d68-2743ef12c96d",
+			"id": "c0c63517-18a4-4437-9ca5-6ad3513f799a",
 			"key": "variable_key",
 			"value": ""
 		}
